@@ -1,17 +1,11 @@
-import './App.css';
-import Header from "../components/Header";
-import Counter from "../components/Counter";
-import "./index.css";
-
+import React from "react";
+import Home from "./pages/Home";
+import Results from "./pages/Results";
 function App() {
 
   return (
     <>
-      <div>
-        <Header />
-        <Counter />
-        <img src="../Images/Counter.jpeg" alt="This is a counter" className="image"/>
-      </div>
+      <Home className="bg-offwhite"/>
     </>
   );
 }
